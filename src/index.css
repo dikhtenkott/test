@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font: 14px/1.2 Helvetia, sans-serif;
+  background-color: #fafafa;
+}
+
+input {
+  width: 600px;
+  padding: 8px;
+  border: 1px solid #aeaeae;
+  box-sizing: border-box;
+  margin: 0 auto 24px;
+  display: block;
+}
+
+button {
+  border: 0;
+  background-color: green;
+  color: #fff;
+  padding: 4px 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button.secondary {
+  background-color: darkred;
+}
+
+table {
+  width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table td {
+  border: 1px solid #aeaeae;
+  padding: 4px;
+}
+
+table th {
+  border: 1px solid #aeaeae;
+}
+
+table tr td:nth-child(3) {
+  width: 40%;
+}
